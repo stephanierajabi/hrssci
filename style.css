@@ -1,70 +1,26 @@
+/*Universal Styles*/
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: Garamond, "Times New Roman";
 }
 
 body {
   background-color: #f5f5f5;
   margin: 75px 200px;
-}
-
-header {
-  border: 3px solid white;
-  padding: 10px;
-  border-radius: 5px;
-  background-color: white;
-  margin-bottom: 10px;
-  height: 170px;
-  overflow: hidden;
-  position: relative;
-  bottom: 50px;
-  opacity: 0.9;
+  font-family: Garamond, "Times New Roman";
 }
 
 a {
-  color: #f5f5f5;
-  text-decoration: none;
+ color: #f5f5f5;
+ text-decoration: none;
 }
 
 h3,
   h2 {
   color: #a52a2a;
   font-weight: 350;
-}
-
-li {
-  position: relative;
-  left: 30px;
-}
-
-li,
-  p {
-   color: black;
-   font-size: 18px;
-}
-
-h1,
-  .title {
-  color: #8b0000;
-}
-
-.uppercase {
-   text-transform: uppercase;
-}
-
-.main {
-  color: #a52a2a;
-  text-align: left;
-  font-size: 65px;
-  font-weight: 300;
-  line-height: 0.9;
-}
-
-.description {
-  text-align: center;
-  font-size: 25px;
 }
 
 .title {
@@ -84,36 +40,29 @@ h1,
   font-weight: 320;
 }
 
+.description {
+  text-align: center;
+  font-size: 25px;
+}
+
 .link {
   color: #a52a2a;
   font-weight: 320;
 }
 
-.image {
-  position: relative;
-  left: 300px;
-  margin-top: 50px;
-}
+/*Header Styles*/
 
-.products {
-  position: relative;
-  bottom: 375px;
-  border: solid #a52a2a;
-  border-radius: 15px;
-  width: 200px;
+header {
+  border: 3px solid white;
   padding: 10px;
-  left: 20px;
-}
-
-.product {
+  border-radius: 5px;
+  background-color: white;
+  margin-bottom: 10px;
+  height: 170px;
+  overflow: hidden;
   position: relative;
-  left: 10px;
-}
-
-.amplifier {
-  position: relative;
-  left: 555px;
-  margin-top: 50px;
+  bottom: 50px;
+  opacity: 0.9;
 }
 
 .navbar {
@@ -130,9 +79,7 @@ h1,
   text-align: right;
 }
 
-.suppliers {
-  font-family: garamond;
-}
+/*Home*/
 
 .content1 {
   border: 3px solid white;
@@ -146,6 +93,8 @@ h1,
   opacity: 0.9;
 }
 
+/*Products*/
+
 .content2 {
   border: 3px solid white;
   padding: 10px;
@@ -157,6 +106,8 @@ h1,
   bottom: 65px;
   opacity: 0.9;
 }
+
+/*PlasticsOne*/
 
 .content3 {
   border: 3px solid white;
@@ -170,6 +121,24 @@ h1,
   opacity: 0.9;
 }
 
+.P1-image {
+  position: relative;
+  left: 300px;
+  margin-top: 50px;
+}
+
+.P1-products {
+  position: relative;
+  bottom: 375px;
+  border: solid #a52a2a;
+  border-radius: 15px;
+  width: 200px;
+  padding: 10px;
+  left: 20px;
+}
+
+/*Alzet*/
+
 .content4 {
   border: 3px solid white;
   padding: 10px;
@@ -181,6 +150,24 @@ h1,
   bottom: 65px;
   opacity: 0.9;
 }
+
+.function {
+  position: relative;
+  bottom: 80px;
+  border: solid #a52a2a;
+  border-radius: 15px;
+  width: 400px;
+  padding: 10px;
+  left: 20px;
+}
+
+.ospump {
+  position: relative;
+  left: 550px;
+  top: 100px;
+}
+
+/*AM Systems*/
 
 .content5 {
   border: 3px solid white;
@@ -194,6 +181,24 @@ h1,
   opacity: 0.9;
 }
 
+.amplifier {
+  position: relative;
+  left: 555px;
+  margin-top: 50px;
+}
+
+.AM-information {
+  position: relative;
+  bottom: 120px;
+  left: 30px;
+  border: solid #a52a2a;
+  border-radius: 15px;
+  width: 400px;
+  padding: 10px;
+}
+
+/*Stoelting*/
+
 .content6 {
   border: 3px solid white;
   padding: 10px;
@@ -205,6 +210,24 @@ h1,
   bottom: 65px;
   opacity: 0.9;
 }
+
+.stereotaxic {
+  position: relative;
+  left: 550px;
+  bottom: 10px;
+}
+
+.stoelting-info {
+  position: relative;
+  bottom: 130px;
+  left: 30px;
+  border: solid #a52a2a;
+  border-radius: 15px;
+  width: 300px;
+  padding: 10px;
+}
+
+/*Contact Us*/
 
 .content7 {
   border: 3px solid white;
@@ -218,6 +241,8 @@ h1,
   opacity: 0.9;
 }
 
+/*Payment*/
+
 .content8 {
   border: 3px solid white;
   padding: 10px;
@@ -230,48 +255,21 @@ h1,
   opacity: 0.9;
 }
 
-.stereotaxic {
-  position: relative;
-  left: 550px;
-  bottom: 10px;
-}
+/*Not sure where these go*/
 
-.information {
+
+li {
   position: relative;
-  bottom: 130px;
   left: 30px;
-  border: solid #a52a2a;
-  border-radius: 15px;
-  width: 300px;
-  padding: 10px;
 }
 
-.AM-information {
-  position: relative;
-  bottom: 120px;
-  left: 30px;
-  border: solid #a52a2a;
-  border-radius: 15px;
-  width: 400px;
-  padding: 10px;
+li,
+  p {
+   color: black;
+   font-size: 18px;
 }
 
-.image1 {
-  position: relative;
-  left: 550px;
-  top: 100px;
-}
-
-.function {
-  position: relative;
-  bottom: 80px;
-  border: solid #a52a2a;
-  border-radius: 15px;
-  width: 400px;
-  padding: 10px;
-  left: 20px;
-}
-
-form {
-  font-family: Arial;
+h1,
+  .title {
+  color: #8b0000;
 }
