@@ -211,7 +211,7 @@ h1,
   padding: 10px;
   border-radius: 5px;
   background-color: white;
-  height: 530px;
+  height: 720px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
@@ -270,4 +270,8 @@ h1,
   width: 400px;
   padding: 10px;
   left: 20px;
+}
+
+form {
+  font-family: Arial;
 }
