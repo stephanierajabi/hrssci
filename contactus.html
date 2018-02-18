@@ -49,7 +49,7 @@
 <h2 class="sub-title">Price Quote/Information Requests</h2>
   <p>If you would like a price quote please contact us and provide us with the following information:</p>
   <br />
-    <ul>
+    <!--<ul>
       <li>First Name, Last Name</li>
       <li>Email address</li>
       <li>Organization</li>
@@ -60,16 +60,19 @@
       <li>Additional comments</li>
     </ul>
 
-<br />
+<br />-->
 
 <p>You may message us directly using the message form below.</p>
 
 <br />
 
 <form method="POST" action="https://formspree.io/sales@hrssci.com">
-  <input style="font-family: Garamond; font-size: 18px; width: 150px;" type="email" name="email" placeholder="Email Address"><br /><br />
-  <textarea style="font-family: Garamond; font-size: 18px; width: 250px;" name="message" placeholder="Comment Here" required></textarea><br />
-  <textarea style="font-family: Garamond; font-size: 18px; width: 250px;" name="product" placeholder="Product"></textarea><br />
+  <input style="font-family: Garamond; font-size: 18px; width: 250px;" type="email" name="email" placeholder="Email Address"><br /><br />
+  <textarea style="font-family: Garamond; font-size: 18px; width: 400px;" name="name" placeholder="First, Last Name" required></textarea><br />
+  <textarea style="font-family: Garamond; font-size: 18px; width: 400px;" name="number" placeholder="Phone Number" required></textarea><br />
+  <textarea style="font-family: Garamond; font-size: 18px; width: 400px;" name="organization" placeholder="Organization/Department" required></textarea><br />
+  <textarea style="font-family: Garamond; font-size: 18px; width: 400px;" name="product" placeholder="Product (Catalogue No., Specifications, Quantity)" required></textarea><br />
+
   <button style="font-family: Garamond; font-size: 18px; padding: 5px;" type="submit">Send</button>
 </form>
 
