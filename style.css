@@ -23,6 +23,15 @@ h3,
   font-weight: 350;
 }
 
+div.header {
+  width: 1000px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: left;
+  border: 1px solid white;
+}
+
 .title {
   margin-top: 30px;
   margin-bottom: 30px;
@@ -68,6 +77,7 @@ header {
 
 /*New NavMenu*/
 
+
 ul#navmenu,
   ul.sub1 {
   list-style-type: none;
@@ -86,11 +96,12 @@ ul#navmenu li {
 
 ul#navmenu a {
   display: block;
+  border-radius: 25px;
   width: 170px;
   height: 35px;
   line-height: 35px;
   background-color: #a52a2a;
-  padding-left: 10px;
+  padding-left: 20px;
   position: relative;
 
 }
@@ -140,6 +151,7 @@ ul#navmenu li:hover .sub1 {
 
 .content2 {
   border: 3px solid white;
+  margin-top: 30px;
   padding: 10px;
   border-radius: 5px;
   background-color: white;
@@ -293,6 +305,7 @@ ul#navmenu li:hover .sub1 {
 .content7 {
   border: 3px solid white;
   padding: 10px;
+  margin-top: 30px;
   border-radius: 5px;
   background-color: white;
   height: 750px;
@@ -332,6 +345,7 @@ form button {
 .content8 {
   border: 3px solid white;
   padding: 10px;
+  margin-top: 30px;
   border-radius: 5px;
   background-color: white;
   height: 180px;
