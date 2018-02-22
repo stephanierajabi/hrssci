@@ -63,9 +63,10 @@ div.header {
 header {
   border: 3px solid white;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   padding: 10px;
   background-color: white;
-  margin-bottom: 10px;
+  margin-bottom: 40px;
   margin-left: 200px;
   margin-right: 200px;
   height: 170px;
@@ -97,10 +98,11 @@ ul#navmenu li {
 ul#navmenu a {
   display: block;
   border-radius: 25px;
+  box-shadow: 2px 2px 2px;
   width: 170px;
   height: 35px;
   line-height: 35px;
-  background-color: #a52a2a;
+  background-color: #8b3400;
   padding-left: 20px;
   position: relative;
 
@@ -137,6 +139,7 @@ ul#navmenu li:hover .sub1 {
   border: 3px solid white;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: white;
   height: 200px;
   overflow: hidden;
@@ -151,6 +154,7 @@ ul#navmenu li:hover .sub1 {
 
 .content2 {
   border: 3px solid white;
+  box-shadow: 3px 3px 25px #510000;
   margin-top: 30px;
   padding: 10px;
   border-radius: 5px;
@@ -170,6 +174,7 @@ ul#navmenu li:hover .sub1 {
   border: 3px solid white;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: white;
   height: 600px;
   overflow: hidden;
@@ -204,6 +209,7 @@ ul#navmenu li:hover .sub1 {
   border: 3px solid white;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: white;
   height: 370px;
   overflow: hidden;
@@ -238,6 +244,7 @@ ul#navmenu li:hover .sub1 {
   border: 3px solid white;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: white;
   height: 300px;
   overflow: hidden;
@@ -272,6 +279,7 @@ ul#navmenu li:hover .sub1 {
   border: 3px solid white;
   padding: 10px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: white;
   height: 290px;
   overflow: hidden;
@@ -307,6 +315,7 @@ ul#navmenu li:hover .sub1 {
   padding: 10px;
   margin-top: 30px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: white;
   height: 750px;
   overflow: hidden;
@@ -327,17 +336,21 @@ form,
   font-size: 15px;
 }
 
+textarea, input {
+  box-shadow: 2px 2px 10px black;
+}
+
 form button {
   font-family: Garamond;
   border-radius: 5px;
   padding: 5px;
   width: 50px;
   font-size: 15px;
-  background-color: #a52a2a;
-  border: 1px solid #a52a2a;
+  background-color: #862200;
+  border: 1px solid #862200;
   color: lightgray;
   font-weight: 600;
-  box-shadow: 3px 3px 5px black;
+  box-shadow: 3px 3px 15px black;
 }
 
 /*Payment*/
@@ -347,6 +360,7 @@ form button {
   padding: 10px;
   margin-top: 30px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: white;
   height: 180px;
   overflow: hidden;
