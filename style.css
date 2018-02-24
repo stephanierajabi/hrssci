@@ -17,10 +17,26 @@ a {
  text-decoration: none;
 }
 
+li {
+  position: relative;
+  left: 30px;
+}
+
+li,
+  p {
+   color: black;
+   font-size: 18px;
+}
+
 h3,
   h2 {
   color: #a52a2a;
   font-weight: 350;
+}
+
+h1,
+  .title {
+  color: #8b0000;
 }
 
 div.header {
@@ -105,6 +121,7 @@ ul#navmenu a {
   background-color: #8b3400;
   padding-left: 20px;
   position: relative;
+  font-family: "Bell MT";
 
 }
 
@@ -187,55 +204,57 @@ ul#navmenu li:hover .sub1 {
 
 .P1-image {
   position: relative;
-  left: 300px;
-  margin-top: 50px;
+  left: 350px;
+  margin-top: 5%;
+  width: 60%;
 }
 
 .P1-products {
   position: relative;
   bottom: 375px;
+  left: 25px;
   border: solid #f5f5f5;
-  box-shadow: 10px 10px 5px lightgray;
+  box-shadow: 8px 8px 5px lightgray;
   background-color: #f5f5f5;
   border-radius: 15px;
-  width: 200px;
-  padding: 10px;
-  left: 20px;
+  width: 23%;
+  padding: 3%;
 }
 
 /*Alzet*/
 
 .content4 {
   border: 3px solid white;
-  padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: white;
+  padding: 10px;
+  margin-left: 200px;
+  margin-right: 200px;
   height: 370px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 200px;
-  margin-right: 200px;
 }
 
 .function {
   position: relative;
   bottom: 80px;
+  left: 20px;
   border: solid #f5f5f5;
-  box-shadow: 10px 10px 5px lightgray;
+  box-shadow: 8px 8px 5px lightgray;
   background-color: #f5f5f5;
   border-radius: 15px;
-  width: 400px;
-  padding: 10px;
-  left: 20px;
+  width: 43%;
+  padding: 2%;
 }
 
 .ospump {
   position: relative;
   left: 550px;
   top: 100px;
+  width: 35%;
 }
 
 /*AM Systems*/
@@ -258,7 +277,8 @@ ul#navmenu li:hover .sub1 {
 .amplifier {
   position: relative;
   left: 555px;
-  margin-top: 50px;
+  margin-top: 5%;
+  width: 40%;
 }
 
 .AM-information {
@@ -266,11 +286,11 @@ ul#navmenu li:hover .sub1 {
   bottom: 120px;
   left: 30px;
   border: solid #f5f5f5;
-  box-shadow: 10px 10px 5px lightgray;
+  box-shadow: 8px 8px 5px lightgray;
   background-color: #f5f5f5;
   border-radius: 15px;
-  width: 400px;
-  padding: 10px;
+  width: 40%;
+  padding: 2%;
 }
 
 /*Stoelting*/
@@ -281,7 +301,7 @@ ul#navmenu li:hover .sub1 {
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: white;
-  height: 290px;
+  height: 330px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
@@ -292,20 +312,20 @@ ul#navmenu li:hover .sub1 {
 
 .stereotaxic {
   position: relative;
-  left: 550px;
-  bottom: 10px;
+  left: 480px;
+  width: 51%;
 }
 
 .stoelting-info {
   position: relative;
   bottom: 130px;
   left: 30px;
-  border: solid #f5f5f5;
-  box-shadow: 10px 10px 5px lightgray;
+  border: 1px solid #f5f5f5;
+  box-shadow: 8px 8px 5px lightgray;
   background-color: #f5f5f5;
   border-radius: 15px;
-  width: 300px;
-  padding: 10px;
+  width: 33%;
+  padding: 2%;
 }
 
 /*Contact Us*/
@@ -369,25 +389,6 @@ form button {
   opacity: 0.9;
   margin-left: 200px;
   margin-right: 200px;
-}
-
-/*Not sure where these go*/
-
-
-li {
-  position: relative;
-  left: 30px;
-}
-
-li,
-  p {
-   color: black;
-   font-size: 18px;
-}
-
-h1,
-  .title {
-  color: #8b0000;
 }
 
 /*Footer
