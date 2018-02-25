@@ -221,6 +221,10 @@ ul#navmenu li:hover .sub1 {
   padding: 3%;
 }
 
+.P1-products h3:hover {
+  color: darkgray;
+}
+
 /*Alzet*/
 
 .content4 {
@@ -297,6 +301,11 @@ ul#navmenu li:hover .sub1 {
   padding: 2%;
 }
 
+.AM-information h3:hover {
+  color: darkgray;
+}
+
+
 /*Stoelting*/
 
 .content6 {
@@ -330,6 +339,10 @@ ul#navmenu li:hover .sub1 {
   border-radius: 15px;
   width: 33%;
   padding: 2%;
+}
+
+.stoelting-info h3:hover {
+  color: darkgray;
 }
 
 /*Contact Us*/
