@@ -250,6 +250,10 @@ ul#navmenu li:hover .sub1 {
   padding: 2%;
 }
 
+.function li:hover {
+  color: maroon;
+}
+
 .ospump {
   position: relative;
   left: 550px;
