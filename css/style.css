@@ -24,28 +24,19 @@ li {
 
 li,
   p {
-   color: black;
+   color: #000000;
    font-size: 18px;
 }
 
 h3,
   h2 {
-  color: #a52a2a;
+  color: #862200;
   font-weight: 350;
 }
 
 h1,
   .title {
-  color: #8b0000;
-}
-
-div.header {
-  width: 1000px;
-  height: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: left;
-  border: 1px solid white;
+  color: #862200;
 }
 
 .title {
@@ -59,7 +50,7 @@ div.header {
 }
 
 .sub-title {
-  color: #a52a2a;
+  color: #862200;
   font-family: Garamond;
   font-size: 25px;
   font-weight: 320;
@@ -70,18 +61,14 @@ div.header {
   font-size: 25px;
 }
 
-.link {
-  color: #a52a2a;
-}
-
 /*Header Styles*/
 
 header {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   border-radius: 5px;
-  box-shadow: 3px 3px 25px lightgray;
+  box-shadow: 3px 3px 25px #d4d9df;
   padding: 10px;
-  background-color: white;
+  background-color: #ffffff;
   margin-bottom: 40px;
   margin-left: 200px;
   margin-right: 200px;
@@ -90,9 +77,12 @@ header {
   position: relative;
   bottom: 50px;
   opacity: 0.9;
+  display: flex;
+  align-items: center;
+  justify-content: left;
 }
 
-/*New NavMenu*/
+/*Navigation*/
 
 
 ul#navmenu,
@@ -118,7 +108,7 @@ ul#navmenu a {
   width: 170px;
   height: 35px;
   line-height: 35px;
-  background-color: #8b3400;
+  background-color: #862200;
   padding-left: 20px;
   position: relative;
   font-family: 'Nanum Myeongjo', serif;
@@ -126,17 +116,17 @@ ul#navmenu a {
 }
 
 ul#navmenu .sub1 a {
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid #d4d9df;
 }
 
 ul#navmenu li:hover > a {
-  background-color: lightgray;
+  background-color: #d4d9df;
   color: maroon;
   transition: background-color 100ms ease-in 50ms;
 }
 
 ul#navmenu li:hover a:hover {
-  background-color: darkgray;
+  background-color: #d4d9d2;
   transition: background-color 100ms ease-in 50ms;
 }
 
@@ -155,11 +145,11 @@ ul#navmenu li:hover .sub1 {
 /*Home*/
 
 .content1 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
-  background-color: white;
+  background-color: #ffffff;
   height: 750px;
   overflow: hidden;
   position: relative;
@@ -170,15 +160,20 @@ ul#navmenu li:hover .sub1 {
   padding: 2%;
 }
 
+.content1 p {
+  text-indent: 20px;
+  line-height: 25px
+}
+
 /*Products*/
 
 .content2 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   box-shadow: 3px 3px 25px #510000;
   margin-top: 30px;
   padding: 10px;
   border-radius: 5px;
-  background-color: white;
+  background-color: #ffffff;
   height: 750px;
   overflow: hidden;
   position: relative;
@@ -190,18 +185,20 @@ ul#navmenu li:hover .sub1 {
 }
 
 .content2 p {
-  text-indent: 25px;
+  margin-left: 20px;
   margin-top: 10px;
+  text-indent: 20px;
+  line-height: 25px;
 }
 
 /*PlasticsOne*/
 
 .content3 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
-  background-color: white;
+  background-color: #ffffff;
   height: 750px;
   overflow: hidden;
   position: relative;
@@ -214,16 +211,17 @@ ul#navmenu li:hover .sub1 {
 .P1-image {
   position: relative;
   left: 350px;
+  top: 50px;
   margin-top: 5%;
   width: 60%;
 }
 
 .P1-products {
   position: relative;
-  bottom: 375px;
+  bottom: 350px;
   left: 25px;
   border: solid #f5f5f5;
-  box-shadow: 8px 8px 5px lightgray;
+  box-shadow: 8px 8px 10px #b2b9b9;
   background-color: #f5f5f5;
   border-radius: 15px;
   width: 23%;
@@ -231,16 +229,16 @@ ul#navmenu li:hover .sub1 {
 }
 
 .P1-products h3:hover {
-  color: darkgray;
+  color: #8d8d8d;
 }
 
 /*Alzet*/
 
 .content4 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
-  background-color: white;
+  background-color: #ffffff;
   padding: 10px;
   margin-left: 200px;
   margin-right: 200px;
@@ -256,7 +254,7 @@ ul#navmenu li:hover .sub1 {
   bottom: 80px;
   left: 20px;
   border: solid #f5f5f5;
-  box-shadow: 8px 8px 5px lightgray;
+  box-shadow: 8px 8px 10px #b2b9b9;
   background-color: #f5f5f5;
   border-radius: 15px;
   width: 43%;
@@ -264,7 +262,7 @@ ul#navmenu li:hover .sub1 {
 }
 
 .function li:hover {
-  color: maroon;
+  color: #862200;
 }
 
 .ospump {
@@ -274,14 +272,28 @@ ul#navmenu li:hover .sub1 {
   width: 35%;
 }
 
+.video {
+  display: flex;
+  justify-content: center;
+}
+
+.video p {
+  display: block;
+  width: 200px;
+}
+
+.video a {
+  color: #862200;
+}
+
 /*AM Systems*/
 
 .content5 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
-  background-color: white;
+  background-color: #ffffff;
   height: 750px;
   overflow: hidden;
   position: relative;
@@ -303,7 +315,7 @@ ul#navmenu li:hover .sub1 {
   bottom: 120px;
   left: 30px;
   border: solid #f5f5f5;
-  box-shadow: 8px 8px 5px lightgray;
+  box-shadow: 8px 8px 10px #b2b9b9;
   background-color: #f5f5f5;
   border-radius: 15px;
   width: 40%;
@@ -311,18 +323,18 @@ ul#navmenu li:hover .sub1 {
 }
 
 .AM-information h3:hover {
-  color: darkgray;
+  color: #8d8d8d;
 }
 
 
 /*Stoelting*/
 
 .content6 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
-  background-color: white;
+  background-color: #ffffff;
   height: 750px;
   overflow: hidden;
   position: relative;
@@ -343,7 +355,7 @@ ul#navmenu li:hover .sub1 {
   bottom: 130px;
   left: 30px;
   border: 1px solid #f5f5f5;
-  box-shadow: 8px 8px 5px lightgray;
+  box-shadow: 8px 8px 10px #b2b9b9;
   background-color: #f5f5f5;
   border-radius: 15px;
   width: 33%;
@@ -351,18 +363,18 @@ ul#navmenu li:hover .sub1 {
 }
 
 .stoelting-info h3:hover {
-  color: darkgray;
+  color: #8d8d8d;
 }
 
 /*Contact Us*/
 
 .content7 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   padding: 10px;
   margin-top: 30px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
-  background-color: white;
+  background-color: #ffffff;
   height: 750px;
   overflow: hidden;
   position: relative;
@@ -373,31 +385,37 @@ ul#navmenu li:hover .sub1 {
   padding: 2%;
 }
 
+.content7 p {
+  text-indent: 20px;
+  line-height: 25px
+}
+
 form,
  input,
   textarea {
-  font-family: Garamond;
+  font-family: 'Nanum Myeongjo', serif;
   border-radius: 5px;
   padding: 5px;
   width: 400px;
-  font-size: 15px;
+  font-size: 12px;
+  margin-bottom: 10px;
 }
 
 textarea, input {
-  box-shadow: 2px 2px 10px gray;
+  box-shadow: 2px 2px 10px #4b4d4a;
 }
 
 form button {
-  font-family: Garamond;
+  font-family: 'Nanum Myeongjo', serif;
   border-radius: 5px;
   padding: 5px;
-  width: 50px;
+  width: 75px;
   font-size: 15px;
   background-color: #862200;
   border: 1px solid #862200;
-  color: lightgray;
+  color: #f5f5f5;
   font-weight: 600;
-  box-shadow: 3px 3px 15px black;
+  box-shadow: 3px 3px 15px #4b4d4a;
 }
 
 button:hover {
@@ -410,12 +428,12 @@ button:hover {
 /*Payment*/
 
 .content8 {
-  border: 3px solid white;
+  border: 3px solid #ffffff;
   padding: 10px;
   margin-top: 30px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
-  background-color: white;
+  background-color: #ffffff;
   height: 750px;
   overflow: hidden;
   position: relative;
@@ -426,12 +444,20 @@ button:hover {
   padding: 2%;
 }
 
+.content8 h2 {
+  margin-bottom: 10px;
+}
+
+.content8 p {
+  margin-left: 15px;
+}
+
 /*Footer*/
 
 footer {
   height: 150px;
-  background-color: maroon;
-  color: lightgray;
+  background-color: #862200;
+  color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
