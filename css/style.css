@@ -107,7 +107,7 @@ ul#navmenu li {
   left: 200px;
   float: left;
   bottom: 60px;
-  font-size: 15px;
+  font-size: 12px;
   letter-spacing: 2px;
 }
 
@@ -121,7 +121,7 @@ ul#navmenu a {
   background-color: #8b3400;
   padding-left: 20px;
   position: relative;
-  font-family: "Bell MT";
+  font-family: 'Nanum Myeongjo', serif;
 
 }
 
@@ -132,10 +132,12 @@ ul#navmenu .sub1 a {
 ul#navmenu li:hover > a {
   background-color: lightgray;
   color: maroon;
+  transition: background-color 100ms ease-in 50ms;
 }
 
 ul#navmenu li:hover a:hover {
   background-color: darkgray;
+  transition: background-color 100ms ease-in 50ms;
 }
 
 ul#navmenu ul.sub1 {
@@ -158,13 +160,14 @@ ul#navmenu li:hover .sub1 {
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: white;
-  height: 200px;
+  height: 750px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 200px;
   margin-right: 200px;
+  padding: 2%;
 }
 
 /*Products*/
@@ -176,13 +179,19 @@ ul#navmenu li:hover .sub1 {
   padding: 10px;
   border-radius: 5px;
   background-color: white;
-  height: 500px;
+  height: 750px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 200px;
   margin-right: 200px;
+  padding: 2%;
+}
+
+.content2 p {
+  text-indent: 25px;
+  margin-top: 10px;
 }
 
 /*PlasticsOne*/
@@ -193,7 +202,7 @@ ul#navmenu li:hover .sub1 {
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: white;
-  height: 600px;
+  height: 750px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
@@ -235,7 +244,7 @@ ul#navmenu li:hover .sub1 {
   padding: 10px;
   margin-left: 200px;
   margin-right: 200px;
-  height: 370px;
+  height: 750px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
@@ -273,7 +282,7 @@ ul#navmenu li:hover .sub1 {
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: white;
-  height: 300px;
+  height: 750px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
@@ -314,7 +323,7 @@ ul#navmenu li:hover .sub1 {
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: white;
-  height: 330px;
+  height: 750px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
@@ -361,6 +370,7 @@ ul#navmenu li:hover .sub1 {
   opacity: 0.9;
   margin-left: 200px;
   margin-right: 200px;
+  padding: 2%;
 }
 
 form,
@@ -374,7 +384,7 @@ form,
 }
 
 textarea, input {
-  box-shadow: 2px 2px 10px black;
+  box-shadow: 2px 2px 10px gray;
 }
 
 form button {
@@ -390,6 +400,13 @@ form button {
   box-shadow: 3px 3px 15px black;
 }
 
+button:hover {
+  background-color: #f5f5f5;
+  border: #f5f5f5;
+  color: #862200;
+  transition: background-color 100ms ease-in 75ms;
+}
+
 /*Payment*/
 
 .content8 {
@@ -399,20 +416,25 @@ form button {
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: white;
-  height: 180px;
+  height: 750px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 200px;
   margin-right: 200px;
+  padding: 2%;
 }
 
-/*Footer
+/*Footer*/
 
 footer {
-  width: 100%;
-  height: 100px;
-  background-color: #a52a2a;
-  color: #f5f5f5;
-}*/
+  height: 150px;
+  background-color: maroon;
+  color: lightgray;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Nanum Myeongjo', serif;
+  opacity: 0.9;
+}
