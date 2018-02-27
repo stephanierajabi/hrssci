@@ -165,6 +165,15 @@ ul#navmenu li:hover .sub1 {
   line-height: 25px
 }
 
+.picture {
+  border: 1px solid white;
+  padding: 5%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10%;
+}
+
 /*Products*/
 
 .content2 {
