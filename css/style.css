@@ -70,8 +70,8 @@ header {
   padding: 10px;
   background-color: #ffffff;
   margin-bottom: 40px;
-  margin-left: 200px;
-  margin-right: 200px;
+  /*margin-left: 100px;
+  margin-right: 100px;*/
   height: 170px;
   overflow: hidden;
   position: relative;
