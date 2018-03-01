@@ -91,7 +91,7 @@ ul#navmenu,
 }
 
 ul#navmenu li {
-  width: 150px;
+  width: 125px;
   text-align: left;
   position: relative;
   left: 100px;
@@ -118,6 +118,8 @@ ul#navmenu a {
 ul#navmenu .sub1 a {
   border-bottom: 1px solid #d4d9df;
   width: 170px;
+  position: relative;
+  right: 50px;
 }
 
 ul#navmenu li:hover > a {
