@@ -69,7 +69,7 @@ header {
   box-shadow: 3px 3px 25px #d4d9df;
   padding: 10px;
   background-color: #ffffff;
-  margin-bottom: 40px;
+  margin-bottom: 3%;
   /*margin-left: 200px;
   margin-right: 200px;*/
   height: 170px;
@@ -137,7 +137,7 @@ ul#navmenu ul.sub1 {
   display: none;
   position: absolute;
   top: 95px;
-  z-index: 1000;
+  z-index: 1;
 }
 
 ul#navmenu li:hover .sub1 {
@@ -148,11 +148,11 @@ ul#navmenu li:hover .sub1 {
 
 .content1 {
   border: 3px solid #ffffff;
-  padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
@@ -179,18 +179,18 @@ ul#navmenu li:hover .sub1 {
 
 .content2 {
   border: 3px solid #ffffff;
-  box-shadow: 3px 3px 25px #510000;
-  margin-top: 30px;
-  padding: 10px;
   border-radius: 5px;
+  box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 30px;
   padding: 2%;
 }
 
@@ -205,17 +205,18 @@ ul#navmenu li:hover .sub1 {
 
 .content3 {
   border: 3px solid #ffffff;
-  padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 2%;
 }
 
 .P1-image {
@@ -227,13 +228,13 @@ ul#navmenu li:hover .sub1 {
 }
 
 .P1-products {
-  position: relative;
-  bottom: 350px;
-  left: 65px;
   border: solid #f5f5f5;
+  border-radius: 15px;
   box-shadow: 8px 8px 10px #b2b9b9;
   background-color: #f5f5f5;
-  border-radius: 15px;
+  position: relative;
+  bottom: 280px;
+  left: 65px;
   width: 23%;
   padding: 3%;
 }
@@ -249,25 +250,26 @@ ul#navmenu li:hover .sub1 {
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
-  padding: 10px;
-  margin-left: 100px;
-  margin-right: 100px;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
+  margin-left: 100px;
+  margin-right: 100px;
+  padding: 2%;
 }
 
 .function {
+  border: solid #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 8px 8px 10px #b2b9b9;
+  background-color: #f5f5f5;
   position: relative;
   bottom: 80px;
   left: 60px;
-  border: solid #f5f5f5;
-  box-shadow: 8px 8px 10px #b2b9b9;
-  background-color: #f5f5f5;
-  border-radius: 15px;
-  width: 43%;
+  width: 37%;
   padding: 2%;
 }
 
@@ -289,9 +291,7 @@ ul#navmenu li:hover .sub1 {
 
 .video p {
   display: block;
-  width: 200px;
-  position: relative;
-  bottom: 25px;
+  width: 20%;
   border: solid #f5f5f5;
   box-shadow: 8px 8px 10px #b2b9b9;
   background-color: #f5f5f5;
@@ -303,31 +303,36 @@ ul#navmenu li:hover .sub1 {
   color: #862200;
 }
 
+.video a:hover {
+  color: #8d8d8d;
+}
+
 /*AM Systems*/
 
 .content5 {
   border: 3px solid #ffffff;
-  padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 2%;
 }
 
 .AM-information {
+  border: solid #f5f5f5;
+  border-radius: 15px;
+  box-shadow: 8px 8px 10px #b2b9b9;
+  background-color: #f5f5f5;
   position: relative;
   left: 65px;
   top: 80px;
-  border: solid #f5f5f5;
-  box-shadow: 8px 8px 10px #b2b9b9;
-  background-color: #f5f5f5;
-  border-radius: 15px;
   width: 40%;
   padding: 3%;
 }
@@ -348,27 +353,28 @@ ul#navmenu li:hover .sub1 {
 
 .content6 {
   border: 3px solid #ffffff;
-  padding: 10px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 100px;
   margin-right: 100px;
+  padding: 2%;
 }
 
 .stoelting-info {
+  border: 1px solid #f5f5f5;
+  box-shadow: 8px 8px 10px #b2b9b9;
+  border-radius: 15px;
+  background-color: #f5f5f5;
   position: relative;
   left: 30px;
   top: 50px;
-  border: 1px solid #f5f5f5;
-  box-shadow: 8px 8px 10px #b2b9b9;
-  background-color: #f5f5f5;
-  border-radius: 15px;
   width: 33%;
   padding: 2%;
 }
@@ -388,18 +394,18 @@ ul#navmenu li:hover .sub1 {
 
 .content7 {
   border: 3px solid #ffffff;
-  padding: 10px;
-  margin-top: 30px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 3%;
   padding: 2%;
 }
 
@@ -416,6 +422,7 @@ form,
   width: 400px;
   font-size: 12px;
   margin-bottom: 10px;
+  resize: horizontal;
 }
 
 textarea, input {
@@ -446,18 +453,18 @@ button:hover {
 
 .content8 {
   border: 3px solid #ffffff;
-  padding: 10px;
-  margin-top: 30px;
   border-radius: 5px;
   box-shadow: 3px 3px 25px #510000;
   background-color: #ffffff;
   height: 750px;
+  min-width: 800px;
   overflow: hidden;
   position: relative;
   bottom: 65px;
   opacity: 0.9;
   margin-left: 100px;
   margin-right: 100px;
+  margin-top: 3%;
   padding: 2%;
 }
 
@@ -468,12 +475,12 @@ button:hover {
 /*Footer*/
 
 footer {
-  height: 150px;
-  background-color: #862200;
-  color: #f5f5f5;
   display: flex;
   justify-content: center;
   align-items: center;
+  height: 150px;
+  background-color: #862200;
+  color: #f5f5f5;
   font-family: 'Nanum Myeongjo', serif;
   opacity: 0.9;
 }
