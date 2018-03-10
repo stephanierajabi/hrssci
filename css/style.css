@@ -206,6 +206,10 @@ ul#navmenu li:hover .sub1 {
   line-height: 25px;
 }
 
+.content2 h2 {
+  font-size: 25px;
+}
+
 /*PlasticsOne*/
 
 .content3 {
@@ -222,6 +226,10 @@ ul#navmenu li:hover .sub1 {
   margin-left: 175px;
   margin-right: 175px;
   padding: 2%;
+}
+
+.content3 h2 {
+  font-size: 30px;
 }
 
 .P1-image {
@@ -248,6 +256,10 @@ ul#navmenu li:hover .sub1 {
   color: #8d8d8d;
 }
 
+.P1-products h3 {
+  font-size: 20px;
+}
+
 /*Alzet*/
 
 .content4 {
@@ -266,6 +278,10 @@ ul#navmenu li:hover .sub1 {
   padding: 2%;
 }
 
+.content4 h2 {
+  font-size: 30px;
+}
+
 .function {
   border: solid #f5f5f5;
   border-radius: 15px;
@@ -274,12 +290,16 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 80px;
   left: 30px;
-  width: 40%;
+  width: 43%;
   padding: 2%;
 }
 
 .function li:hover {
   color: #862200;
+}
+
+.function h3 {
+  font-size: 20px;
 }
 
 .ospump {
@@ -332,6 +352,10 @@ ul#navmenu li:hover .sub1 {
   padding: 2%;
 }
 
+.content5 h2 {
+  font-size: 30px;
+}
+
 .AM-information {
   border: solid #f5f5f5;
   border-radius: 15px;
@@ -346,6 +370,10 @@ ul#navmenu li:hover .sub1 {
 
 .AM-information h3:hover {
   color: #8d8d8d;
+}
+
+.AM-information h3 {
+  font-size: 20px;
 }
 
 .amplifiers {
@@ -379,6 +407,10 @@ ul#navmenu li:hover .sub1 {
   padding: 2%;
 }
 
+.content6 h2 {
+  font-size: 30px;
+}
+
 .stoelting-info {
   border: 1px solid #f5f5f5;
   box-shadow: 8px 8px 10px #b2b9b9;
@@ -393,6 +425,10 @@ ul#navmenu li:hover .sub1 {
 
 .stoelting-info h3:hover {
   color: #8d8d8d;
+}
+
+.stoelting-info h3 {
+  font-size: 20px;
 }
 
 .stereotaxics {
@@ -419,6 +455,10 @@ ul#navmenu li:hover .sub1 {
   margin-right: 175px;
   margin-top: 3%;
   padding: 2%;
+}
+
+.content7 h2 {
+  font-size: 25px;
 }
 
 .content7 p {
@@ -482,6 +522,7 @@ button:hover {
 
 .content8 h2 {
   margin-bottom: 10px;
+  font-size: 25px;
 }
 
 
@@ -492,7 +533,7 @@ footer {
   justify-content: space-around;
   align-items: center;
   height: 150px;
-  background-color: #862200;
+  background-color: #702506;
   font-family: 'Nanum Myeongjo', serif;
   opacity: 0.9;
 }
