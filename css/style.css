@@ -64,15 +64,13 @@ h1,
 /*Header Styles*/
 
 header {
-  border: 3px solid #ffffff;
-  border-radius: 5px;
   box-shadow: 3px 3px 25px #d4d9df;
   padding: 10px;
   background-color: #ffffff;
   margin-bottom: 3%;
   /*margin-left: 200px;
   margin-right: 200px;*/
-  height: 170px;
+  height: 120px;
   overflow: hidden;
   position: relative;
   bottom: 50px;
@@ -82,8 +80,17 @@ header {
   justify-content: left;
 }
 
+.header {
+  display: flex;
+  align-items: center;
+  padding-left: 110px;
+}
+
 /*Navigation*/
 
+ul#navmenu {
+  margin-left: 75px;
+}
 
 ul#navmenu,
   ul.sub1 {
@@ -157,8 +164,8 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   padding: 2%;
 }
 
@@ -166,13 +173,12 @@ ul#navmenu li:hover .sub1 {
   line-height: 25px
 }
 
-.picture {
-  border: 1px solid white;
-  padding: 5%;
+.logos {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
-  margin-top: 10%;
+  border: 1px solid white;
+  height: 500px;
 }
 
 /*Products*/
@@ -188,8 +194,8 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   margin-top: 30px;
   padding: 2%;
 }
@@ -197,7 +203,6 @@ ul#navmenu li:hover .sub1 {
 .content2 p {
   margin-left: 20px;
   margin-top: 10px;
-  text-indent: 20px;
   line-height: 25px;
 }
 
@@ -214,14 +219,14 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   padding: 2%;
 }
 
 .P1-image {
   position: relative;
-  left: 470px;
+  left: 350px;
   top: 50px;
   margin-top: 5%;
   width: 60%;
@@ -234,7 +239,7 @@ ul#navmenu li:hover .sub1 {
   background-color: #f5f5f5;
   position: relative;
   bottom: 280px;
-  left: 65px;
+  left: 15px;
   width: 23%;
   padding: 3%;
 }
@@ -256,8 +261,8 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   padding: 2%;
 }
 
@@ -268,8 +273,8 @@ ul#navmenu li:hover .sub1 {
   background-color: #f5f5f5;
   position: relative;
   bottom: 80px;
-  left: 60px;
-  width: 37%;
+  left: 30px;
+  width: 40%;
   padding: 2%;
 }
 
@@ -279,7 +284,7 @@ ul#navmenu li:hover .sub1 {
 
 .ospump {
   position: relative;
-  left: 750px;
+  left: 550px;
   top: 100px;
   width: 35%;
 }
@@ -291,6 +296,8 @@ ul#navmenu li:hover .sub1 {
 
 .video p {
   display: block;
+  position: relative;
+  bottom: 20px;
   width: 20%;
   border: solid #f5f5f5;
   box-shadow: 8px 8px 10px #b2b9b9;
@@ -320,8 +327,8 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   padding: 2%;
 }
 
@@ -331,9 +338,9 @@ ul#navmenu li:hover .sub1 {
   box-shadow: 8px 8px 10px #b2b9b9;
   background-color: #f5f5f5;
   position: relative;
-  left: 65px;
+  left: 25px;
   top: 80px;
-  width: 40%;
+  width: 45%;
   padding: 3%;
 }
 
@@ -346,7 +353,12 @@ ul#navmenu li:hover .sub1 {
   justify-content: space-around;
   align-items: flex-end;
   position: relative;
-  top: 175px;
+}
+
+.wire {
+  position: relative;
+  left: 600px;
+  bottom: 125px;
 }
 
 /*Stoelting*/
@@ -362,8 +374,8 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   padding: 2%;
 }
 
@@ -403,8 +415,8 @@ ul#navmenu li:hover .sub1 {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   margin-top: 3%;
   padding: 2%;
 }
@@ -462,8 +474,8 @@ button:hover {
   position: relative;
   bottom: 65px;
   opacity: 0.9;
-  margin-left: 100px;
-  margin-right: 100px;
+  margin-left: 175px;
+  margin-right: 175px;
   margin-top: 3%;
   padding: 2%;
 }
@@ -472,15 +484,23 @@ button:hover {
   margin-bottom: 10px;
 }
 
+
 /*Footer*/
 
 footer {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   height: 150px;
   background-color: #862200;
-  color: #f5f5f5;
   font-family: 'Nanum Myeongjo', serif;
   opacity: 0.9;
+}
+
+i {
+  padding-right: 5px;
+}
+
+footer p {
+  font-size: 15px;
 }
